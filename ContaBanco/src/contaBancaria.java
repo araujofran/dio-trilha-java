@@ -1,12 +1,19 @@
 
+public class ContaBancaria {
 
+   String nome = " "; 
+   String numeroDaAgencia = " ";
+   Double saldoDaConta = 0.00;
+   int numeroDaConta = 1021;
+   Double salarioMensal = 2500.00;
+   
+   Double extrato;
+   
+   public double depositarSalario() {
 
-
-public class contaBancaria {
-
-    double saldo = 6500;
-    String cliente = " ";
-    String numeroAgencia = "067-8";
-    Int numeroUsuario = 1021; 
+   double extrato = saldoDaConta + salarioMensal;
+   return extrato;
     
+}
+
 }
